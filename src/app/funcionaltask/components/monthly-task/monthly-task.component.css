@@ -4,8 +4,14 @@
     margin-top: 50px;
 }
 .panel{
-    background-color: white;
+    background-color:whitesmoke;
     border-radius: 10px;
     padding: 10px;
   
+}
+.panel-tittle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
