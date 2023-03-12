@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 
@@ -13,6 +14,7 @@ import {MatIconModule} from '@angular/material/icon';
   exports:[
     MatToolbarModule,
     MatIconModule,
+    MatCheckboxModule
   ],
 
 })

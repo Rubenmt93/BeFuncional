@@ -1,0 +1,13 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px rgba(139, 139, 139, 0.75);
+   
+}
+.mat-checkbox-inner-container {
+    margin: 2px 8px auto 0 !important;
+  }

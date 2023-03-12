@@ -4,6 +4,7 @@ import { FuncionalTaskHomeComponent } from './funcional-task-home/funcional-task
 import { DailyTaskComponent } from './components/daily-task/daily-task.component';
 import { WeeklyTaskComponent } from './components/weekly-task/weekly-task.component';
 import { MonthlyTaskComponent } from './components/monthly-task/monthly-task.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -12,10 +13,12 @@ import { MonthlyTaskComponent } from './components/monthly-task/monthly-task.com
     FuncionalTaskHomeComponent,
     DailyTaskComponent,
     WeeklyTaskComponent,
-    MonthlyTaskComponent
+    MonthlyTaskComponent, 
+    
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule,
   ],
   exports: [
     FuncionalTaskHomeComponent
