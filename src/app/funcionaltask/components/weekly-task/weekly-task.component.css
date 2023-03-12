@@ -1,0 +1,11 @@
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.panel{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+  
+}
